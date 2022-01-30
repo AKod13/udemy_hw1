@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
 
   def about
+    @articles = Article.all
   end
 end

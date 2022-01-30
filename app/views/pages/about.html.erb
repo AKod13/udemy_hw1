@@ -1,1 +1,5 @@
 About
+<% @articles.each do |article| %>
+  <%= article.title.upcase %>
+  <%= article.description.titleize %>
+<% end %>
